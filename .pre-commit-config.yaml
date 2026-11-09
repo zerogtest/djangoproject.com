@@ -32,7 +32,7 @@ repos:
       rev: v3.21.2
       hooks:
           - id: pyupgrade
-            args: [--py312]
+            args: [--py313]
 
     - repo: https://github.com/adamchainz/django-upgrade
       rev: 1.29.1
@@ -44,7 +44,7 @@ repos:
       rev: 25.12.0
       hooks:
           - id: black
-            args: ["--target-version=py312"]
+            args: ["--target-version=py313"]
 
     - repo: https://github.com/rbubley/mirrors-prettier
       rev: v3.7.4
