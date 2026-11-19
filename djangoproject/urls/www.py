@@ -17,8 +17,6 @@ from djangoproject.sitemaps import TemplateViewSitemap
 from foundation.feeds import FoundationMinutesFeed
 from foundation.views import BannerPreview, CoreDevelopers
 
-admin.autodiscover()
-
 sitemaps = {
     "weblog": WeblogSitemap,
     "flatpages": FlatPageSitemap,
